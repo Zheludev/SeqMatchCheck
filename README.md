@@ -1,6 +1,8 @@
 # SeqMatchCheck
 a simple bash script based on bioawk that checks if two .fastx files have exactly matching sequences in the same positions - used to check if fasstp made a duplication error
 
+-----------------------------------------------------------------------------------
+
 a bash script that uses bioawk to check if the first 'linecount/4' reads are perfect matches between R1 and R2 of two fastq files
 which is a duplication error that certain versions of fastp sometimes makes?
 
