@@ -65,6 +65,7 @@ if [ -s temp_matched.seqIDs ]; then
 	echo "writing output match seqID file to matched.seqIDs"
 	mv temp_matched.seqIDs matched.seqIDs
 	echo "will now unceremoniously terminate this bash script - hold on tight"
+	echo "consider updating fastp with - conda update fastp"
 	return 1 2>/dev/null
 else
 	# The file is empty
